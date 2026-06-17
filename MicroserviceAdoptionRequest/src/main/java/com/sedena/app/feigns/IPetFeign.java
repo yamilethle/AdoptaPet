@@ -9,7 +9,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.sedena.app.entities.AdoptionStatus;
 import com.sedena.app.entities.Pet;
 
-@FeignClient(name="microservicepet", url="http://localhost:9091")
+//before eureka
+//@FeignClient(name="microservicepet", url="http://localhost:9091")
+
+//after eureka
+@FeignClient(name="microservicepet")
 public interface IPetFeign {
 	
 	@GetMapping("/pet/id/{id}")
