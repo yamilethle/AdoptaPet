@@ -62,4 +62,18 @@ La entidad `Adopter` representa a una persona que desea adoptar una mascota dent
 | GET | `/ap/adopter/lastname/{lastName}` | Buscar adoptantes por apellido |
 | PUT | `/adopter` | Actualizar información de un adoptante |
 | DELETE | `/adopter/{id}` | Eliminar un adoptante por id |
+
+
+## Variables de ambiente usadas por el microservicio.
+
+- **PORT default(9092)**: Representa el puerto donde se ejecuta el microservicio.
+- **DB_IP default(localhost)**: Representa la IP del servicor de MYSQL.
+- **DB_PORT default(3306)**: Representa el puerto del servidor MYSQL.
+- **DB_NAME default(microserviceadopter)**: Nombre de la base de datos al que se conectara el microservicio.
+- **DB_USER default(root)**: Usuario de la base de datos.
+- **DB_PASSWORD default(abc123)**: Contraseña de la base de datos.
+- **EUREKA_IP default(localhost)**: IP del servidor de descubrimiento eureka.
+- **EUREKA_PORT default(9999)**: Puerto de conexión al servidor de descubrimiento.
+- **CONFIG_IP default(localhost)**: IP del servidor de configuración.
+- **CONFIG_PORT default(7777)**: Puerto del servidor de configuración.
  
