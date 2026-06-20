@@ -26,6 +26,10 @@ Además, incluye servicios de infraestructura para:
 
 ---
 
+## repositorio de infraestructura
+
+https://github.com/yamilethle/infraestructureAdoptaPet
+
 ## Arquitectura general
 ![diagrama_final](docs/diagrama_final.png)
 
